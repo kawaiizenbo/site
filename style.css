@@ -1,18 +1,10 @@
-:root
-{
-    --c1: teal;
-    --c2: lightseagreen;
-    --bg: #ededed;
-    --bg99: #ededed99;
-    --fg: #101010;
-}
 body
 {
 	font-family: monospace;
     text-align: center;
     font-size: 11pt;
-    color: var(--fg);
-    background-color: var(--c1);
+    color: #101010;
+    background-color: teal;
 }
 
 hr
@@ -22,23 +14,23 @@ hr
 
 a 
 { 
-    color: var(--c2); 
+    color: lightseagreen;
     transition: color 0.5s;
 }
 
 a:visited 
 { 
-    color: var(--c2);  
+    color: lightseagreen;
 }
 
 a:hover
 {
-    color: var(--c1);
+    color: teal;
 }
 
 .main
 {
-    background-color: var(--bg); 
+    background-color: #ededed; 
     margin-left: auto;
     margin-right: auto;
     max-width: 90%;
@@ -51,8 +43,8 @@ a:hover
 
 .header
 {
-    background-color: var(--bg);
-    background-color: var(--bg99);
+    background-color: #ededed;
+    background-color: #ededed99;
     min-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -70,27 +62,40 @@ a:hover
 
 .header-link
 {
-    background-color: var(--bg);
+    background-color: #ededed;
     background-color: transparent;
     padding: 5px;
     border-radius: 5px;
     border: 2px solid;
-    border-color: var(--c1);
-    color: var(--fg); 
+    border-color: teal;
+    color: #101010;
     transition: color 0.5s, border-color 0.5s;
 }
 
 .header-link:hover
 {
-    border-color: var(--c2);
+    border-color: lightseagreen;
 }
 
 @media (prefers-color-scheme: dark) 
 {
-    :root
+    .header-link
     {
-        --bg: #101010;
-        --bg99: #10101099;
-        --fg: #ffffff;
+        background-color: #101010;
+        background-color: transparent;
+        color: #ffffff;
+    }
+    .header
+    {
+        background-color: #101010;
+        background-color: #10101099;
+    }
+    .main
+    {
+        background-color: #101010;
+    }
+    body
+    {
+        color: #ffffff;
     }
 }

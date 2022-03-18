@@ -32,24 +32,11 @@
         <h1>Zebo Broadcasting Org: PD TV</h1>
         <hr>
         <center>
-            <video id="video" controls="controls" autoplay="true"></video>
+            <video src="stream.m3u8" id="video" controls="controls" autoplay="true"></video>
             <hr>
             <a href="stream.m3u8">Not loading? try here</a>
         </center>
         <script>
-            // im so sorry
-            var video = document.getElementById('video');
-            var videoSrc = 'stream.m3u8';
-            if (video.canPlayType('application/vnd.apple.mpegurl')) 
-            {
-                video.src = videoSrc;
-            } 
-            else if (Hls.isSupported()) 
-            {
-                var hls = new Hls();
-                hls.loadSource(videoSrc);
-                hls.attachMedia(video);
-            }
         </script>
     </body>
 </html>
