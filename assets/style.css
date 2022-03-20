@@ -1,0 +1,119 @@
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #1f1017;
+    background-color: pink;
+    background-image: linear-gradient(transparent 9.6rem, white 9.6rem), linear-gradient(90deg, transparent 9.6rem, white 9.6rem);
+    background-size: 10rem 10rem;
+    text-shadow: 0.5pt 0.5pt #fbbfcb77;
+}
+a 
+{ 
+    color: palevioletred;
+    transition: color 0.3s;
+}
+
+a:visited 
+{ 
+    color: palevioletred;
+}
+
+a:hover
+{
+    color: pink;
+}
+
+#main
+{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #ffffed;
+    background-color: #ffffedaa;
+    padding: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: palevioletred;
+    border-radius: 30px;
+    -webkit-backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+#links-table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-link
+{
+    width: 192px;
+    height: 48px;
+    background-color: #ffffed;
+    background-color: #ffffedaa;
+    border-width: 3px;
+    border-style: solid;
+    border-color: palevioletred;
+    border-radius: 30px;
+    transition: border-color 0.3s;
+}
+
+.button-link:hover
+{
+    border-color: pink;
+}
+
+.system-names
+{
+    text-shadow: 1px 1px #0f000777;
+}
+
+@media (prefers-color-scheme: dark) 
+{
+    #main
+    {
+        background-color: #1f1017;
+        background-color: #1f1017aa;
+    }
+    body
+    {
+        color: #ffffed;
+    }
+    .button-link
+    {
+        background-color: #1f1017;
+        background-color: #1f1017aa;
+        color: #ffffed;
+    }
+    a 
+    { 
+        color: pink;
+    }
+
+    a:visited 
+    { 
+        color: pink;
+    }
+
+    a:hover
+    {
+        color: palevioletred;
+    }
+}
+
+@media screen and (max-width: 1200px) 
+{
+    #main
+    {
+        width: 90%;
+    }
+    .button-link
+    {
+        width: 128px;
+        height: 48px;
+    }
+}

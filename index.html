@@ -1,70 +1,92 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en_US">
+    <head>
+        <title>KawaiiZenbo's Site</title>
+        <link rel="stylesheet" href="assets/style.css"/>
+        <meta content="KawaiiZenbo's Site" property="og:title">
+        <meta content="https://kawaiizenbo.me/" property="og:url">
+        <meta content="#fbbfcb" data-react-helmet="true" name="theme-color">
+    </head>
+    <body>
+        <div id="main">
+            <h1>KawaiiZenbo's Site</h1>
+            <table id="links-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://github.com/kawaiizenbo"><button class="button-link">My GitHub</button></a>
+                        </td>
+                        <td>
+                            <a href="https://discord.gg/yqwgAxyaEk"><button class="button-link">My Discord Server</button></a>
+                        </td>
+                        <td>
+                            <a href="old/"><button class="button-link">Old homepage</button></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="gallery/"><button class="button-link">The Gallery (WIP)</button></a>
+                        </td>
+                        <td>
+                            <a href="pink/"><button class="button-link">Pink Diamond Worship</button></a>
+                        </td>
+                        <td>
+                            <a href="pepsi.pdf"><button class="button-link">pepsi.pdf</button></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-<head>
-    <title>KawaiiZenbo's Site</title>
-    <link rel="stylesheet" href="style.css">
-    <meta content="KawaiiZenbo's Site" property="og:title">
-    <meta content="cool site 2019" property="og:description">
-    <meta content="https://kawaiizenbo.me/" property="og:url">
-    <meta content="#FF8CB2" data-react-helmet="true" name="theme-color">
-</head>
+            <h2 id="welcome">Welcome!</h2>
+            <p>Hi there! this is website...</p>
+            <h3>About the KawaiiZenbos</h3>
+            <p>we are a plural system consisting of 2 members, <strong class="system-names" style="color: lightblue">Chloe</strong> and <strong class="system-names" style="color: lightcoral">Bonnibel</strong>.<br>
+                our pronouns are it/its and she/her if you have a problem with that go fuck yourself.</p>
+            <p>The site was mostly made by Chloe</p>
+            <hr>
 
-<body>
-    <div class="header">
-        <a href="https://sharerepo.stkc.win/?repo=https://repo.kawaiizenbo.me/"><button class="header-link">Add my Cydia/Sileo/Zebra repo!</button></a>
-        <a href="pepsi.pdf"><button class="header-link">pepsi.pdf</button></a>
-        <a href="http://kawaiizenbo.me:5455/forwarder"><button class="header-link">Dumb WADs for the Nintendo Wii</button></a>
-        <a href="https://github.com/kawaiizenbo"><button class="header-link">My GitHub</button></a>
-        <a href="https://discord.gg/yqwgAxyaEk"><button class="header-link">My Discord Server</button></a>
-        <a href="wiki/"><button class="header-link">The Swag Wiki</button></a>
-        <a href="stream/"><button class="header-link">PD TV</button></a>
-    </div>
+            <h2 id="about-server">About the server</h2>
+            <p>This website is running on a Dell Optiplex 790 SFF with 16gb of ram and an Intel Core i3-2120.<br>
+                It is currently running Debian 11 with nginx for server hosting.<br>
+                It is also running a Minecraft server and <a href="https://github.com/kawaiizenbo/lammybotv4">the Lammy Discord bot</a></a>.
+            </p>
+            <hr>
 
-    <div class="main">
-        <img src="images/zebo.png" height="128" alt="the zebo" title="the zebo"><br>
-        <span style="font-size: 24pt;">KawaiiZenbo's Site</span>
+            <h2 id="programs">Programs [Chloe] has made or worked on</h2>
+            <p>This is a most likely incomplete list of every program [Chloe] has ever publically released/worked on.</p>
+            <a href="https://hypnotic.dev/">Hypnotic Client (minecraft utility mod created by BadGamesInc)</a><br/>
+            <a href="https://github.com/kawaiizenbo/iSuite">iSuite (ios utility thing)</a><br/>
+            <a href="https://github.com/kawaiizenbo/AppManager">AppManager (ios app installer)</a><br/>
+            <a href="https://github.com/kawaiizenbo/LammyBotV4">Lammy Bot V4 (discord bot)</a><br/>
+            <a href="https://github.com/kawaiizenbo/Roundrect">Roundrect (discord theme)</a><br/>
+            <a href="https://github.com/kawaiizenbo/RepoFullDownloader-Core">RepoFullDownloader (apt/installer 4 repo downloader)</a><br/>
+            <a href="https://github.com/kawaiizenbo/IPASorter">IPA Sorter (ios app file sorter)</a><br/>
+            <a href="https://github.com/kawaiizenbo/winh3lixpatcher">winh3lixpatcher (h3lix jailbreak patcher for Windows)</a><br/>
+            <a href="https://github.com/kawaiizenbo/pxl2ipa">pxl2ipa (broken joke)</a><br/>
+            <a href="https://github.com/kawaiizenbo/susgen">susgen (among us joke)</a><br/>
+            <hr>
 
-        <h2>Welcome!</h2>
-        <p>Hi there! this is website.</p>
-        <h3>About the KawaiiZenbo (from the kawaiizenbo itself?!?!?!)</h3>
-        <p>we are a plural system consisting of <a style="color: lightblue">Chloe</a> and <a style="color: lightcoral">Bonnibel</a>. our pronouns are it/its and she/her if you have a problem with that go fuck yourself.</p>
-        <p>The site was mostly made by Chloe</p>
-        <hr>
+            <h2 id="js-opinions">Opinions on JavaScript/modern web design</h2>
+            <p>
+                JavaScript is the largest plague on the internet at the moment.<br>
+                It's incredibly resource intensive and is the main reasons older devices arent as useful on the web.<br>
+                One of it's major uses is for tracking across websites<br>
+                Everything it can do can be accomplished with HTML5, CSS3, and PHP<br>
+                This website was made with 0% JavaScript, and renders near perfectly as far back as Internet Explorer 6.
+            </p>
+            <hr>
 
-        <h2>About the server</h2>
-        <p>This website is running on a Dell Optiplex 790 SFF with 16gb of ram amd an Intel Core i3-2120.<br>
-            It is currently running the latest version of Debian with LXDE and nginx for server hosting.<br>
-            It is also running a Minecraft server and <a href="https://github.com/kawaiizenbo/lammybotv4">my Discord bot</a></a>.
-        </p>
-        <hr>
-
-        <h2>Programs [Chloe] has made or worked on</h2>
-        <p>This is a most likely incomplete list of every program [Chloe] has ever publically released/worked on.</p>
-        <a href="https://hypnotic.dev/">Hypnotic Client (minecraft utility mod created by BadGamesInc)</a><br/>
-        <a href="https://github.com/kawaiizenbo/iSuite">iSuite (ios utility thing)</a><br/>
-        <a href="https://github.com/kawaiizenbo/AppManager">AppManager (ios app installer)</a><br/>
-        <a href="https://github.com/kawaiizenbo/LammyBotV4">Lammy Bot V4 (discord bot)</a><br/>
-        <a href="https://github.com/kawaiizenbo/Roundrect">Roundrect (discord theme)</a><br/>
-        <a href="https://github.com/kawaiizenbo/RepoFullDownloader-Core">RepoFullDownloader (apt/installer 4 repo downloader)</a><br/>
-        <a href="https://github.com/kawaiizenbo/IPASorter">IPA Sorter (ios app file sorter)</a><br/>
-        <a href="https://github.com/kawaiizenbo/pxl2ipa">pxl2ipa (broken joke)</a><br/>
-        <a href="https://github.com/kawaiizenbo/susgen">susgen (among us joke)</a><br/>
-        <hr>
-
-        <h2>Images</h2>
-            <p>Please visit <a href="./gallery/">The Gallery</a></p>   
-        <hr>
-
-        <h2>Pink Diamond</h2>
-            <p>Please visit <a href="./pink.html">Pink Diamond Worship Page</a></p>   
-        <hr>
-
-        <p>THANK YOU FOR VISITING.<br><br>YOU HAVE (5) BATTLESTAR GALACTICA: SEASON 3 DVDS REMAINING.</p>
-        <img src="images/bagtlestar.jpg" title="Fun suffocation" height="512">
-
-        <p>Page Design by KawaiiZenbo and JamesnLollify (consultant) 2021, 2022.</p>
-    </div>
-</body>
-
+            <p>THANK YOU FOR VISITING.<br><br>YOU HAVE (5) BATTLESTAR GALACTICA: SEASON 3 DVDS REMAINING.</p>
+            <img src="assets/bagtlestar.jpg" title="Fun suffocation" height="512">
+            <hr>
+            <a href="http://debian.org"><img src="assets/88x31/debian.gif"/></a>
+            <a href="http://code.visualstudio.com/"><img src="assets/88x31/vscbutton.gif"/></a>
+            <a href="http://microsoft.com/edge/"><img src="assets/88x31/edge.gif"/></a>
+            <a href="http://windows.com"><img src="assets/88x31/windows11.gif"/></a>
+            <img src="assets/88x31/antinft.gif"/>
+            <img src="assets/88x31/javascriptfree.gif"/>
+            <hr>
+            <p>Page Design by KawaiiZenbo and JamesnLollify (consultant) 2021, 2022. Site HTML and CSS under <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY-SA 2.0</a></p>
+        </div>
+    </body>
 </html>
