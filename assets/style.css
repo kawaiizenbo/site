@@ -111,6 +111,10 @@ a:hover
     {
         width: 90%;
     }
+}
+
+@media screen and (max-width: 675px) 
+{
     .button-link
     {
         width: 128px;
