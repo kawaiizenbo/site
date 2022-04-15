@@ -3,19 +3,56 @@
 
 <head>
     <title>The Gallery - KawaiiZenbo's Site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/style.css">
     <meta content="KawaiiZenbo's Site" property="og:title">
     <meta content="The Gallery" property="og:description">
     <meta content="https://kawaiizenbo.me/gallery/" property="og:url">
-    <meta content="#334BFF" data-react-helmet="true" name="theme-color">
+    <meta content="#fbbfcb" data-react-helmet="true" name="theme-color">
+    <style>
+
+        .container 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+  
+        .card 
+        {
+            width: 384px;
+            margin: 0 10px;
+            text-align: center;
+            border: 3px palevioletred solid;
+            padding-bottom: 30px;
+            border-radius: 30px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+        .img-wrapper 
+        {
+            width: 100%;
+            height: 0;
+            padding-top: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #main
+        {
+            width: 90%;
+        }
+    </style>
 </head>
 
 <body>
-        <a href="../">Home.</a><br>
-        <span style="font-size: 24pt; color: white;">The Gallery</span>
-
+    <div id="main">
+        <h1>The Gallery</h1>
+        <a href=".."><button class="button-link">Home.</button></a>
         <hr>
 
+        <h2 id="kz-images">KawaiiZenbos' Images</h2>
         <div class="container">
             <div class="card">
                 <a href="images/large/fuelpump-lg.JPG">
@@ -219,7 +256,7 @@
                 <a href="images/large/win11-lg.jpg">
                     <div class="img-wrapper" style="background-image: url('images/win11.jpg');"></div><br>
                 </a>
-                <caption>windows 11 on an old ass laptop. (Dec 1, 2021)</caption>
+                <caption>windows 11 on an old laptop. (Dec 1, 2021)</caption>
             </div>
             <div class="card">
                 <a href="images/large/xbox-mess-lg.jpg">
@@ -236,7 +273,43 @@
         </div>     
         <hr>
 
-        <p style="color: white;">Page Design by KawaiiZenbo and JamesnLollify (consultant) 2021, 2022.</p>
+        <h2 id="jnl-images">JamesnLollify's Images</h2>
+        <div class="container">
+            <div class="card">
+                <a href="images/jnl/blue-cream-soda.png">
+                    <div class="img-wrapper" style="background-image: url('images/jnl/blue-cream-soda.png');"></div><br>
+                </a>
+                <caption>The Natural Gamer Habitat</caption>
+            </div>
+            <div class="card">
+                <a href="images/jnl/cta.png">
+                    <div class="img-wrapper" style="background-image: url('images/jnl/cta.png');"></div><br>
+                </a>
+                <caption>James' Cat doing a little fluff moment</caption>
+            </div>
+            <div class="card">
+                <a href="images/jnl/jolteon.png">
+                    <div class="img-wrapper" style="background-image: url('images/jnl/jolteon.png');"></div><br>
+                </a>
+                <caption>They done gave him head trauma</caption>
+            </div>
+        </div>     
+        <hr>
+
+        <h2 id="selfisht-images">selfisht's Images</h2>
+        <div class="container">
+            <div class="card">
+                <a href="images/selfisht/storm-cloud.png">
+                    <div class="img-wrapper" style="background-image: url('images/selfisht/storm-cloud.png');"></div><br>
+                </a>
+                <caption>cloud ready to do some damage</caption>
+            </div>
+        </div>     
+        <hr>
+
+        <p>Made with love by Chloe and Bonnibel (KawaiiZenbo). 2021-2022.</p>
+        <p>Images in the lower sections belong to JamesnLollify and selfisht.</p>
+        <img src="../assets/kzHeart.png" alt="kawaiizenbo heart" width="50" height="50">
     </div>
 </body>
 

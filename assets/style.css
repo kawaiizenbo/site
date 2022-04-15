@@ -11,7 +11,7 @@ body
 }
 a 
 { 
-    color: hsl(340, 57%, 64%);
+    color: palevioletred;
     transition: color 0.3s;
 }
 
