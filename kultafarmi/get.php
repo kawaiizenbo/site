@@ -1,5 +1,5 @@
 <?php
     $myfile = fopen("messages.json", "r") or die('{"error":0}');
-    echo '{'.fread($myfile,filesize("messages.txt"));
+    echo '{"messages":['.fread($myfile,filesize("messages.json"));
     fclose($myfile);
->
+?>
