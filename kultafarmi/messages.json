@@ -1,0 +1,9 @@
+    {
+        "id": 0,
+        "nickname": "system",
+        "content": "the end.",
+        "time": 0,
+        "operator": true,
+        "host": "68.0.143.100"
+    }
+}
