@@ -18,7 +18,7 @@ function getUserIpAddr(){
 $host = getUserIpAddr();
 if(in_array($host, $banned_ips))
 {
-    die("You are banned from this instance!");
+    die('You are banned from this instance!<br><img src="spongebob-dance.gif" alt="spongebob dance"/>');
 }
 if (!isset($_POST["name"]) || !isset($_POST["msg"])) die("Did not specify nickname or message POST attributes");
 
