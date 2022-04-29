@@ -1,1 +1,1 @@
-<?php last_time = 0; ?>
+<?php $last_time = 1651244400; ?>
