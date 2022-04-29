@@ -1,0 +1,1 @@
+<?php last_time = 0; ?>
