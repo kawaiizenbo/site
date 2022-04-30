@@ -1,5 +1,14 @@
 <?php
     include "last_time.php";
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        $pin = "0722";
+        if (!isset($_POST["pin"])) die("provide pin..");
+        if ($_POST["pin"] != $pin) die("invlaid pin..");
+        $lt = time();
+        file_put_contents('last_time.php', '<?php $last_time = '.strval($lt). '; ?>');
+        header("Location: .");
+    }
 ?>
 <html>
     <head>
@@ -12,7 +21,7 @@
             <h2>without cutting</h2>
             <span id="realTime">0 (our time)</span><br>
             <span id="urTime">0 (your time)</span><br><br>
-            <form class="center" action="time.php" method="post">
+            <form class="center" action="index.php" method="post">
                 <label for="pin">pin</label>
                 <input id="pin" type="text" name="pin" style="width: 50px;"><br><br>
                 <input type="submit" value="reset time :(">
