@@ -19,6 +19,7 @@
         <center>
             <h1 id="time">0</h1>
             <h2>without cutting</h2>
+            <span>last cuts</span><br>
             <span id="realTime">0 (our time)</span><br>
             <span id="urTime">0 (your time)</span><br><br>
             <form class="center" action="index.php" method="post">
