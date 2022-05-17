@@ -52,15 +52,19 @@ a:hover
 
 .button-link
 {
-    width: 192px;
-    height: 48px;
-    background-color: #ffffed;
-    background-color: #ffffedaa;
+    width: 25%;
+    height: 56px;
+    background-color: #fbbfcb;
+    background-color: #fbbfcbaa;
+    color: white;
+    font-size: large;
+    font-style: oblique;
     border-width: 3px;
     border-style: solid;
     border-color: palevioletred;
     border-radius: 30px;
     transition: border-color 0.3s;
+    margin-bottom: 4px;
 }
 
 .button-link:hover
@@ -84,12 +88,6 @@ a:hover
     {
         color: #ffffed;
     }
-    .button-link
-    {
-        background-color: #1f1017;
-        background-color: #1f1017aa;
-        color: #ffffed;
-    }
     a 
     { 
         color: pink;
@@ -111,14 +109,5 @@ a:hover
     #main
     {
         width: 90%;
-    }
-}
-
-@media screen and (max-width: 675px) 
-{
-    .button-link
-    {
-        width: 128px;
-        height: 48px;
     }
 }
