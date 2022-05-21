@@ -111,3 +111,14 @@ a:hover
         width: 90%;
     }
 }
+
+@media screen and (max-width: 800px) 
+{
+    .button-link
+    {
+        width: 49%;
+        height: 72px;
+        font-size: large;
+        margin-bottom: 8px;
+    }
+}
