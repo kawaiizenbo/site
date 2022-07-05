@@ -17,6 +17,7 @@ body
     background-size: 20rem 20rem;
     text-shadow: 0.5pt 0.5pt #fbbfcb77;
 }
+
 a 
 { 
     color: palevioletred;
@@ -84,11 +85,6 @@ a:hover
 .button-link:hover
 {
     border-color: pink;
-}
-
-.system-names
-{
-    text-shadow: 1px 1px #0f000777;
 }
 
 @media (prefers-color-scheme: dark) 
