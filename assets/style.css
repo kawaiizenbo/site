@@ -66,6 +66,11 @@ a:hover
     text-rendering: optimizeLegibility;
 }
 
+.system-names
+{
+    text-shadow: 1px 1px #0f000777;
+}
+
 .button-link
 {
     width: 25%;
