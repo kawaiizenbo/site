@@ -71,6 +71,17 @@ a:hover
     text-shadow: 1px 1px #0f000777;
 }
 
+.code-block
+{
+    font-family: monospace;
+    font-size: 12pt;
+    background-color: #0f000777;
+    border-radius: 3px;
+    color: #ffffed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .button-link
 {
     width: 25%;
