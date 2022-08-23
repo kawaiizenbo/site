@@ -24,5 +24,9 @@ if ($_GET['redir_url'] != null)
 {
     header('Location: '.$_GET['redir_url'].'');
 }
+else
+{
+    header('Location: http://kawaiizenbo.me:8080');
+}
 
 ?>
