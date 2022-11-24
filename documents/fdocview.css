@@ -1,0 +1,52 @@
+body
+{
+    background-color: #777777;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input
+{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#page
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 800px;
+    color: #0f0f00;
+    background-color: #ffffed;
+    padding: 2rem;
+    border: solid 1px #dddddddd;
+    box-shadow: 0px 2px 4px #00000077;
+}
+
+#top-bar
+{
+    padding: 10px;
+}
+
+#password
+{
+    width: 100px;
+}
+
+#edit-button
+{
+    background-color: #0077ff;
+    color: white;
+    width: 50px;
+}
+
+@media screen and (max-width: 800px) 
+{
+    #page
+    {
+        max-width: 90%;
+    }
+}
