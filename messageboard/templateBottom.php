@@ -1,0 +1,1 @@
+</div><center><p>Made with love by the KawaiiZenbos (kulupu Senpo). (2021-2023)</p><p><a href="privacy.php">Privacy Policy</a> &#x2022; <a href="https://kawaiizenbo.me/assets/messageboard.tar.bz2">Source Code</a></p></center></body></html>

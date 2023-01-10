@@ -1,0 +1,42 @@
+body
+{
+    background-image: url("bg.png");
+    background-repeat: repeat;
+    font-family: monospace;
+    color: #1a001f;
+}
+
+img
+{
+    max-height: 300px;
+}
+
+#main
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    background-color: lavenderblush;
+    background-color: #fff0f5cc;
+    padding: 10px;
+    border: solid 1px lavender;
+
+    -webkit-backdrop-filter: blur(2px);
+    -o-backdrop-filter: blur(2px);
+    -moz-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.post
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: left;
+    background-color: white;
+    font-size: 12pt;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 1px lavender;
+}

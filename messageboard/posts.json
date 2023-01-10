@@ -1,0 +1,13 @@
+{
+    "messages":
+    [
+        { 
+            "id":0, 
+            "ip":"0", 
+            "time":0, 
+            "nickname":"system", 
+            "body":"the end", 
+            "image_url":""
+        }
+    ]
+}

@@ -15,6 +15,9 @@ function getUserIpAddr(){
     return $ip;
 }
 
+// denied
+die("This service is discontinued, please refer to <a href=../messageboard/>messageboard</a>");
+
 $host = getUserIpAddr();
 if(in_array($host, $banned_ips))
 {
