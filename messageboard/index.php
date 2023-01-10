@@ -1,5 +1,5 @@
 <?php include 'templateTop.php'?>
-<title>Messagboard</title>
+<title>messageboard</title>
 <h1>messageboard</h1>
 <center>
 <form class="center" action="post.php" method="post">
@@ -15,7 +15,7 @@
 			</tr>
 			<tr>
 				<td>
-                    <label for="body">body</label>
+                    <label for="body">body *</label>
                 </td>
 				<td>
                     <textarea id="body" rows="8" cols="40" name="body"></textarea>
@@ -31,6 +31,7 @@
 			</tr>
 		</tbody>
     </table>
+    <span>* required</span>
     <input type="submit" value="post">
     <input type="reset" value="reset">
     <input type="button" value="refresh" onclick="location.reload()" />
